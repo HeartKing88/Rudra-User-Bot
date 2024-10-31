@@ -5,6 +5,7 @@ from pyrogram import filters
 
 from .. import *
 from telegraph import Telegraph, upload_file
+import requests
 
 
 telegraph = Telegraph()
