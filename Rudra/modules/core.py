@@ -76,9 +76,9 @@ class Rudra(Client, PyTgCalls):
         if self.app.id not in Config.SUDOERS:
             Config.SUDOERS.add(int(self.app.id))
         try:
-            await self.app.join_chat("RUDRA_JAAT")
-            await self.app.join_chat("RUDRA_JAAT")
-            await self.app.join_chat("RUDRA_JAAT")
+            await self.app.join_chat("sanatani_balak10")
+            await self.app.join_chat("sanatani_balak10")
+            await self.app.join_chat("sanatani_balak10")
         except:
             pass
         await self.app.send_message(Config.LOG_GROUP_ID, "**Userbot Started**")
@@ -91,9 +91,9 @@ class Rudra(Client, PyTgCalls):
             self.ass.mention = self.ass.me.mention
             self.ass.id = self.ass.me.id
             try:
-                await self.ass.join_chat("RUDRA_JAAT")
-                await self.ass.join_chat("RUDRA_JAAT")
-                await self.ass.join_chat("RUDRA_JAAT")
+                await self.ass.join_chat("sanatani_balak10")
+                await self.ass.join_chat("sanatani_balak10")
+                await self.ass.join_chat("sanatani_balak10")
             except:
                 pass
             try:
