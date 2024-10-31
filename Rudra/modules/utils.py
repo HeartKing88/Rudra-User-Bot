@@ -116,7 +116,7 @@ def paginate_plugins(page_n, plugin_dict, prefix, chat=None):
                 ),
                 EqInlineKeyboardButton(
                     "Owner",
-                    url=f"tg://openmessage?user_id={app.id}",
+                    url=f"http://t.me/its_vikky_ydv",
                 ),
                 EqInlineKeyboardButton(
                     "❯",
