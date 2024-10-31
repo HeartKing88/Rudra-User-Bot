@@ -1,7 +1,7 @@
 asyncio
 GitPython
 motor
-py-tgcalls=0.9.7
+py-tgcalls
 pyrogram
 python-dotenv
 telegraph
