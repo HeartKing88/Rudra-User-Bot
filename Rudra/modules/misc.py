@@ -43,8 +43,8 @@ def inline_wrapper(func):
                 button = [
                     [
                         InlineKeyboardButton(
-                            "💥 Deploy Rudra Userbot ✨",
-                            url=f"https://github.com/RUDRA-JAAT/Rudra-User-Bot"
+                            "💥 Deploy Vikky Userbot ✨",
+                            url=f"https://github.com/HeartKing88/Rudra-User-Bot"
                         )
                     ]
                 ]
@@ -54,10 +54,10 @@ def inline_wrapper(func):
                     results=[
                         (
                             InlineQueryResultPhoto(
-                                photo_url=f"https://mallucampaign.in/images/img_1693670648.jpg",
-                                title="🥀 Rudra Userbot ✨",
-                                thumb_url=f"https://mallucampaign.in/images/img_1693670648.jpg",
-                                description=f"🌷 Deploy Your Own Rudra-Userbot 🌿...",
+                                photo_url=f"https://files.catbox.moe/heecqt.jpg",
+                                title="🥀 Vikky Userbot ✨",
+                                thumb_url=f"https://files.catbox.moe/heecqt.jpg",
+                                description=f"🌷 Deploy Your Own Vikky-Userbot 🌿...",
                                 caption=f"<b>🥀 Welcome › To › Rudra 🌷\n✅ Userbot v2.0 ✨...</b>",
                                 reply_markup=InlineKeyboardMarkup(button),
                             )
@@ -74,7 +74,7 @@ def inline_wrapper(func):
                             InlineQueryResultArticle(
                                 title="",
                                 input_message_content=InputTextMessageContent(
-                                    f"||**🥀 Please, Deploy Your Own Rudra Userbot❗...\n\nRepo:** <i>https://github.com/RUDRA-JAAT/Rudra-User-Bot/</i>||"
+                                    f"||**🥀 Please, Deploy Your Own Rudra Userbot❗...\n\nRepo:** <i>https://github.com/HeartKing88/Rudra-User-Bot/</i>||"
                                 ),
                             )
                         )
