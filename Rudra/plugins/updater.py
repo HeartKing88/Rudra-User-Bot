@@ -9,8 +9,8 @@ from pyrogram import *
 from pyrogram.types import *
 
 
-UPSTREAM_REPO = "https://github.com/RUDRA-JAAT/Rudra-User-Bot"
-UPSTREAM_BRANCH = "Rudra"
+UPSTREAM_REPO = "https://github.com/HeartKing88/Rudra-User-Bot"
+UPSTREAM_BRANCH = "Vikky"
 
 
 def gen_chlog(repo, diff):
@@ -59,7 +59,7 @@ async def update_userbot(client, message):
     await message.edit("**🔄 Checking Updates ✨...**")
     update_avail = updater()
     if update_avail:
-        await message.edit("**🥳 New Update Available\nFor Rudra-Userbot❗**")
+        await message.edit("**🥳 New Update Available\nFor Vikky-Userbot❗**")
         asyncio.sleep(0.5)
         await message.edit("**🔃 Updating ...**")
         os.system("git pull -f && pip3 install -r Installer")
@@ -67,12 +67,12 @@ async def update_userbot(client, message):
         os.system(f"kill -9 {os.getpid()} && python3 -m Rudra")
         return
     else:
-        await message.edit(f"**🥀 Rudra Userbot Already\nUpdated To Latest 🔥 ...\n\n💕 For Any Query › Contact\nTo » @RUDRA_JAAT ✨ ...**")
+        await message.edit(f"**🥀 Vikky Userbot Already\nUpdated To Latest 🔥 ...\n\n💕 For Any Query › Contact\nTo » @Its_vikky_ydv ✨ ...**")
 
 __NAME__ = "Update"
 __MENU__ = f"""
 **🥀 Use This Plugin To Update
-Your Rudra Userbot.**
+Your Vikky Userbot.**
 
 **🇮🇳 Command :**
 `.update` - Update Your Userbot
