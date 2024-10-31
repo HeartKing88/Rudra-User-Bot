@@ -1,5 +1,7 @@
 import os
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import filters
+
 
 from .. import *
 from telegraph import Telegraph, upload_file
