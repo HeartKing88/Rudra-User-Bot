@@ -9,7 +9,7 @@
 <h2>Deployment</h2>
 <p title="Deployment">You can use Rudra-Userbot through the cloud application platform Heroku.</p>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RUDRA-JAAT/Rudra-User-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HeartKing88/Rudra-User-Bot)
 
 Or, simply run the following commands in your Vps,
 
